@@ -5,6 +5,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import link from "./link.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,9 +26,12 @@ import tpi from "./company/tpi.jpg";
 import nlta from "./company/nlta.jpg";
 import camt from "./company/camt.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import advice from "./advice.png";
+import bookie from "./bookie.png";
+import space from "./space_invader.png";
+import money from "./moneytracker.png";
+import mbti from "./mbti.png";
+import olympics from "./olympics.png";
 
 export {
   backend,
@@ -35,6 +39,7 @@ export {
   mobile,
   web,
   github,
+  link,
   menu,
   close,
   css,
@@ -54,7 +59,10 @@ export {
   tpi,
   nlta,
   camt,
-  carrent,
-  jobit,
-  tripguide,
+  advice,
+  bookie,
+  space,
+  mbti,
+  olympics,
+  money,
 };

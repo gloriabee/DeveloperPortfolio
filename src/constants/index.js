@@ -19,9 +19,12 @@ import {
   tpi,
   nlta,
   camt,
-  carrent,
-  jobit,
-  tripguide,
+  advice,
+  bookie,
+  space,
+  money,
+  olympics,
+  mbti,
   threejs,
 } from "../assets";
 
@@ -169,67 +172,147 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Advice Generator",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A simple web app that fetches and displays random quotes of advice using the Advice Slip API",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
+      {
+        name: "API",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: advice,
+    source_code_link: "https://github.com/gloriabee/AdviceGenerator",
+    preview_link: "https://gloriabee.github.io/AdviceGenerator/",
   },
   {
-    name: "Job IT",
+    name: "Bookie",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Online Book Webstore including back-office system (CRUD of products and sales history) and front-office for searching,choosing for making purchase",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
         color: "pink-text-gradient",
       },
+      {
+        name: "EJS",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: bookie,
+    preview_link: "https://github.com/chartchai-class/webstore_frontend",
+    source_code_link: "https://github.com/chartchai-class/adminsite_backend",
   },
   {
-    name: "Trip Guide",
+    name: "Space Invaders",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Desktop game application featuring enemy movement, shooting mechanics, score tracking and keyboard controls.",
     tags: [
       {
-        name: "nextjs",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JavaFX",
+        color: "green-text-gradient",
+      },
+    ],
+    image: space,
+    source_code_link: "https://github.com/aye-nyeinSan/SpaceInvaderJavaFXGame",
+  },
+  {
+    name: "Money Tracker",
+    description:
+      "Monthly Money Tracker App with dashboard visualizations for income, expenses, and balance. Features include transaction logging, category-based breakdowns, monthly filtering, and dynamic charts for budget statistics",
+    tags: [
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Chartjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: money,
+    source_code_link: "https://github.com/gloriabee/react-money-tracker",
+    preview_link: "https://moneytrackmm.netlify.app/",
+  },
+  {
+    name: "Olympics Report",
+    description:
+      "Web Application featuring a dynamic medal table for Olympics 2024. Includes  user authentication with role-based access—registered users can comment on athletes, while admins manage users, countries, and  medals via an admin panel",
+    tags: [
+      {
+        name: "Vue",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Springboot",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: olympics,
+    preview_link: "https://github.com/chartchai-class/se331-project-2-whattheh",
+    source_code_link:
+      "https://github.com/chartchai-class/project-1-Olympic-Report-malatang-friends",
+  },
+  {
+    name: "MBTI Personality Prediction",
+    description:
+      "Train classification model that determines personality types as extroverted (E) or introverted (I) based on textual analysis.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Streamlit",
+        color: "green-text-gradient",
+      },
+    ],
+    image: mbti,
+    source_code_link: "https://github.com/Yu11001/NLP_project",
   },
 ];
 
