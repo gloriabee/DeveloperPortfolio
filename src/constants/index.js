@@ -1,3 +1,4 @@
+import { Html } from "@react-three/drei";
 import {
   mobile,
   backend,
@@ -8,13 +9,16 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  vue,
   tailwind,
   nodejs,
+  mysql,
   mongodb,
   git,
   figma,
   docker,
+  java,
+  python,
   wishme,
   tpi,
   nlta,
@@ -25,7 +29,9 @@ import {
   money,
   olympics,
   mbti,
-  threejs,
+  github,
+  ig,
+  linkedin,
 } from "../assets";
 
 export const navLinks = [
@@ -72,11 +78,7 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -92,6 +94,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Vue JS",
+    icon: vue,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -100,12 +106,20 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "git",
@@ -316,4 +330,18 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const contacts = [
+  {
+    icon: github,
+    link: "https://github.com/gloriabee",
+  },
+  {
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/gloria-win-nyunt-635b341ab/",
+  },
+  {
+    icon: ig,
+    link: "https://www.instagram.com/gloriawinnyunt/",
+  },
+];
+export { services, technologies, experiences, projects, contacts };

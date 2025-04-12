@@ -25,7 +25,7 @@ const About = () => {
         </span>{" "}
         at{" "}
         <span className="text-[#915EFF]">
-          Collage of Arts, Media, and Technology, Chiangmai University.
+          College of Arts, Media, and Technology, Chiangmai University.
         </span>
         I am interested in building web apps, machine learning models for NLP
         field and teaching/tutoring (both coding and non-coding things). I'm a
@@ -34,6 +34,11 @@ const About = () => {
         learner and collaborate closely with team members to create efficient,
         user-friendly solutions that solve real-world problems.
       </motion.p>
+      <a href="gloria_cv.pdf" target="_blank">
+        <button className="mt-6 p-2 bg-white text-[#915eff]">
+          Download CV
+        </button>
+      </a>
     </>
   );
 };

@@ -14,12 +14,14 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import mysql from "./tech/mysql.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import vue from "./tech/vue.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
 
 import wishme from "./company/wishme.jpg";
 import tpi from "./company/tpi.jpg";
@@ -32,6 +34,9 @@ import space from "./space_invader.png";
 import money from "./moneytracker.png";
 import mbti from "./mbti.png";
 import olympics from "./olympics.png";
+
+import linkedin from "./linkedin.png";
+import ig from "./ig.png";
 
 export {
   backend,
@@ -51,10 +56,10 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
-  threejs,
+  java,
+  python,
   wishme,
   tpi,
   nlta,
@@ -65,4 +70,8 @@ export {
   mbti,
   olympics,
   money,
+  linkedin,
+  ig,
+  mysql,
+  vue,
 };
